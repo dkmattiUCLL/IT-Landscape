@@ -23,7 +23,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t ghcr.io/dkmattiucll/it-landscape:latest .
+        run: docker build -t ghcr.io/u/dkmattiucll/it-landscape:latest .
 
       - name: Push Docker image
-        run: docker push ghcr.io/dkmattiucll/it-landscape:latest
+        run: docker push ghcr.io/u/dkmattiucll/it-landscape:latest
