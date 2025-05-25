@@ -26,4 +26,4 @@ jobs:
         run: docker build -t ghcr.io/${{ github.repository_owner }}/it-landscape:latest .
 
       - name: Push Docker image
-        run: docker push ghcr.io/${{ github.repository }}:latest
+        run: docker build -t ghcr.io/${{ github.repository_owner }}/it-landscape:latest .
