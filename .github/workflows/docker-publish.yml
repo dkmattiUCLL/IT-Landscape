@@ -24,10 +24,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          IMAGE_NAME=$(echo "ghcr.io/${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
-          docker build -t $IMAGE_NAME:latest .
+          docker build -t ghcr.io/dkmattiucll/it-landscape:latest .
 
       - name: Push Docker image
         run: |
-          IMAGE_NAME=$(echo "ghcr.io/${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
-          docker push $IMAGE_NAME:latest
+          docker push ghcr.io/dkmattiucll/it-landscape:latest
