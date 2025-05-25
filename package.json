@@ -1,0 +1,14 @@
+{
+  "name": "it-landscape",
+  "version": "1.0.0",
+  "description": "Een simpele Node.js app voor Docker met GitHub Actions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "Matthias",
+  "license": "ISC"
+}
