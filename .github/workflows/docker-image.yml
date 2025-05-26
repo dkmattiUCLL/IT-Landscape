@@ -1,5 +1,4 @@
-name: Docker Push via /u/ scope
-
+name: it-landscape ci/cd
 on:
   push:
     paths:
